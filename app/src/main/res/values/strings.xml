@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Test Food</string>
+    <string name="title_menu">Меню</string>
+    <string name="title_profile">Профиль</string>
+    <string name="title_can">Корзина</string>
+    <string name="block">Пицца</string>
+    <string name="city1">Москва</string>
+    <string name="description">Ветчина и грибы</string>
+    <string name="pizzaDescr">Ветчина,шампиньоны, увеличинная порция моцареллы, томатный соус</string>
+    <string-array name="cities_array">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Екатеринбург</item>
+    </string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.menu.MenuFragment">
+
+    <Spinner
+        android:id="@+id/spinner_cities"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription="@string/city1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/ic_baseline_qr_code_scanner_24"
+        app:layout_constraintStart_toEndOf="@+id/spinner_cities"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sales_category"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_cities"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:itemCount="5"
+        tools:listitem="@layout/sale_category_first"
+        app:layout_scrollFlags="scroll|enterAlways"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/block_category"
+        android:layout_width="413dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="1dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sales_category"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:itemCount="5"
+        tools:listitem="@layout/category_block"
+        app:tabMode="fixed"
+        
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pizza_scroll"
+        android:layout_width="409dp"
+        android:layout_height="483dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/block_category"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:itemCount="5"
+        tools:listitem="@layout/pizza_block"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

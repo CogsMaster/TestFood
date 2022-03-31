@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/ic_baseline_plus_one_24.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/ic_baseline_restaurant_menu_24.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1645" />
+        <entry key="app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1645" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4193572998046875" />
+        <entry key="app/src/main/res/layout/category_block.xml" value="1.078426513671875" />
+        <entry key="app/src/main/res/layout/fragment_can.xml" value="0.2151268115942029" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.2998193359375" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/main_layout.xml" value="0.2151268115942029" />
+        <entry key="app/src/main/res/layout/pizza_block.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/sale_category_first.xml" value="0.55" />
+        <entry key="app/src/main/res/layout/sale_item_category.xml" value="0.2151268115942029" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.504816182454427" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2998193359375" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
